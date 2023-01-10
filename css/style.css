@@ -1,0 +1,185 @@
+*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.background{
+    background-image: url("../assets/img/Foto-portada.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+.navBar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: space-evenly;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    height: 100vh;
+    width: 100%;
+}
+.navBar{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+}
+
+main{
+    height: 80vh;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    color: white;
+    font-size: 50px;
+
+}
+
+.portada{ 
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100%;
+    color: white;
+    font-size: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo-titulo{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.footerContainer{
+    bottom: 0;
+    margin-top: auto;
+    }
+
+
+.backgroundContacto{
+    background-image: url("../assets/img/Contactos-Ola.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.backgroundNovedades{
+    background-image: url("../assets/img/Playa-de-fondo-novedades.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.videoMarca{
+    float: left;
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 3rem;
+}
+.presentacionMarca{
+margin-left: 100px;
+font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+padding-right: 50px;
+}
+
+.footerTitle{
+    display: flex;
+    justify-content: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.backgroundProductos{
+    background-image: url("../assets/img/foto-producto.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.gorras{
+    width: 100%;
+    height: 100%;
+    pad: 20%;
+    font-size: 50px;
+    text-align: left;
+    object-fit: contain;  
+    color: black;
+}
+
+.card{
+width: 100%;
+margin: 20px;
+border-radius: 6px;
+grid-template-areas:;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+}
+
+.alpargatas{
+    color: black;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+}
+
+.backgroundExperienciaOla{
+    background-image: url("../assets/img/fondo-experienciaola.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
